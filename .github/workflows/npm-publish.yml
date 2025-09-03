@@ -17,10 +17,10 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install 
 
       - name: Run API tests
-        run: npm run test
+        run: npm test
 
       - name: Generate Allure Report
         run: npm run allure:generate
